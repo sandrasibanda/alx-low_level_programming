@@ -2,13 +2,13 @@
 /**
  * print_sign - prints the sign of a numver
  *
- * @n: the int to check
+ * @i: the int to check
  *
- * Return: 1 and prints + if n is greater than zero
+ * Return: 1 and prints + if i is greater than zero
  *
- * 0 and prints 0 if n is zero
+ * 0 and prints 0 if i is zero
  *
- * -1 and prints - if n is less than zero
+ * -1 and prints - if i is less than zero
  */
 int print_sign(int i)
 {
