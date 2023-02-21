@@ -8,11 +8,12 @@
 /**
  * print_alphabet - prints the alphabet in lowercase
  */
-void print_alphabet(void)
+int main(void)
 {
-	char let;
-	for (let = 'a'; let <= 'z'; let++)
+	for(a; a<10; a++)
 	{
+		for (c='a'; c=<='z'; c++)
+		{
 		_putchar(let);
 	}
 	_putchar('\n');
