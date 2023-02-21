@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
-main(){
-int i=0,a=0;
-while (i=1)
+/**
+ * main - Entry point.
+ * Description: write a program that prints "_putchar" followed by a new line.
+ * Return: Always 0 (Success.)
+ */
+
+int main(void)
 {
-	printf("_putchar ");
-	i++;
-}
-return 0;
+	printf("_putchar");
+
+	return 0;
 }
