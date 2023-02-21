@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char ch;
+	char ch='z',i;
 
-	ch = 'a';
-	while (ch <= 'z')
+	while (ch<='z')
 	{
-		printf("ch");
+		i='a'
+		printf("a");
 		ch++;
 	}
 	printf("\n");
