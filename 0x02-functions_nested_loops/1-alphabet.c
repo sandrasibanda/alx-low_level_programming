@@ -8,11 +8,13 @@
  */
 void print_alphabet(void)
 {
-	char let;
+	char i;
 
-	for (let = 'a'; let <= 'z'; let++)
+	for (i = 'a'; i <= 'z'; let++)
 	{
-		printf(let);
+		putchar(i);
+		i++;
 	}
-		printf("\n");
+		putchar('\n');
+		return (0);
 }
