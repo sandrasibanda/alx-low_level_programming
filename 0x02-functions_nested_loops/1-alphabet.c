@@ -3,19 +3,17 @@
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
- *  * Return: Always 0 (Success.)
- */
-int main(void)
+ *  * Return: Alwa
+ *  */
+void print_alphabet(void)
 {
-	char ch='z',i;
+	char ch;
 
-	while (ch<='z')
+	ch = 'a';
+	while (ch <= 'z')
 	{
-		i='a'
-		printf("a");
+		_putchar(ch);
 		ch++;
 	}
-	printf("\n");
-	
-	return 0;
+	_putchar('\n');
 }
