@@ -3,17 +3,16 @@
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
- *  * Return: Alwa
- *  */
+ *  * Return: Always0:SUCCESS
+ *  
+ */
 void print_alphabet(void)
 {
-	char ch;
+	char let;
 
-	ch = 'a';
-	while (ch <= 'z')
+	for (let = 'a'; let <= 'z'; let++)
 	{
-		putchar(ch);
-		ch++;
+		_putchar(let);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
