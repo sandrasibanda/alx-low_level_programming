@@ -9,18 +9,13 @@
  */
 void print_alphabet(void)
 {
-	int i=0;
-	char c;
-	while(i<10)
-	{
-		c = 'a';
-	       while (c <= 'z') 
-		{
-		putchar(c);
-		c++;
-	}
+	char ch;
 
-	putchar('\n');
-	i++;
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
 	}
+	_putchar('\n');
 }
