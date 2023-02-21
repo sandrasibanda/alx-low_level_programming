@@ -23,6 +23,6 @@ void print_alphabet(void)
 
 	}
 
-	return 0;
+	return (0);
 
 }
