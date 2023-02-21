@@ -1,14 +1,10 @@
 #include "main.h"
 /**
  * main- "The function prints the alphabet in lowercase followed by a new line"
- *
  * Return: "Always 0 (Success)"
- */
-
-/**
  * print_alphabet - prints the alphabet in lowercase
  */
-int main(void)
+void print_alphabet(void)
 {
 	for(a; a<10; a++)
 	{
