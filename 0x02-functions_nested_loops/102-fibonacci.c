@@ -9,14 +9,14 @@
 
 int main(void)
 {
-	int count = 3;
+	
 	long int x, y, z, number;
 
-	y = 0;
+	y = 1;
 
-	z = 1;
+	z = 2;
 
-	for (x = 1; x <= 50; ++z)
+	for (x = 3; x <= 50; ++z)
 	{
 		if (y != 20365011074)
 		{
