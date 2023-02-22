@@ -9,25 +9,34 @@
 
 int main(void)
 {
-	
-	long int x, y, z, number;
+    int count = 3;
 
-	y = 1;
+    long int x = 1, y = 2;
+    long int sum = x + y;
 
-	z = 2;
+    printf("%lu, ", x);
+    printf("%lu, ", y);
 
-	for (x = 3; x <= 50; ++z)
-	{
-		if (y != 20365011074)
-		{
-			printf("%ld, ", y);
-		} else
-		{
-			printf("%ld\n", y);
-		}
-		number = y + z;
-		y = z;
-		z = number;
-	}
-	return (0);
+    while (count <= 50)
+    {
+        
+        if (count == 50)
+        {
+            printf("%lu \n", sum);
+         }
+         else  
+         { 
+           printf("%lu, ", sum); 
+         }
+
+        
+	x = y;
+        y = next;
+
+        
+        sum = x + y; 
+        count++;
+    }
+
+    return (0);
 }
