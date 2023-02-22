@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print first 50 fibonacci
- * starting with 1 and 2
+ * main -main block
+ * print first 50 fibonacci starting with 1 and 2
+ * numbers are separated by commas and space
  * followed by a new line
  * Return: 0 always
  */
@@ -31,7 +32,7 @@ int main(void)
 
         
 	x = y;
-        y = next;
+        y = sum;
 
         
         sum = x + y; 
