@@ -10,34 +10,32 @@
 
 int main(void)
 {
-    int count = 3;
+	int count = 3;
 
-    long int x = 1, y = 2;
-    long int sum = x + y;
+	long int x = 1, y = 2;
+	long int sum = x + y;
 
-    printf("%lu, ", x);
-    printf("%lu, ", y);
+	printf("%lu, ", x);
+	printf("%lu, ", y);
 
-    while (count <= 50)
-    {
-        
-        if (count == 50)
-        {
-            printf("%lu \n", sum);
-         }
-         else  
-         { 
-           printf("%lu, ", sum); 
-         }
+	while (count <= 50)
+	{
 
-        
+    	    if (count == 50)
+	{
+		printf("%lu \n", sum);
+	}
+	else  
+	{ 
+		 printf("%lu, ", sum); 
+	}
+
 	x = y;
-        y = sum;
+	y = sum;
 
-        
-        sum = x + y; 
-        count++;
-    }
+	sum = x + y; 
+	count++;
+	}
 
-    return (0);
+	return (0);
 }
