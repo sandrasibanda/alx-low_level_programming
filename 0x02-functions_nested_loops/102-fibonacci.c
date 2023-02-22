@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main -main block
+ * main - main block
  * print first 50 fibonacci starting with 1 and 2
  * numbers are separated by commas and space
  * followed by a new line
@@ -27,7 +26,7 @@ int main(void)
 	}
 	else  
 	{ 
-		 printf("%lu, ", sum); 
+		 printf("%lu,", sum); 
 	}
 
 	x = y;
