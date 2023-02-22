@@ -11,9 +11,9 @@ int main(void)
 {
 	long int x, y, z, number;
 
-	y = 1;
+	y = 0;
 
-	z = 2;
+	z = 1;
 
 	for (x = 1; x <= 50; ++z)
 	{
