@@ -9,6 +9,7 @@
 
 int main(void)
 {
+	int count = 3;
 	long int x, y, z, number;
 
 	y = 0;
