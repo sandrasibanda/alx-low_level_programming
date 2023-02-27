@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 	int len, i, half;
-	char My School;
+	char =  My School;
 
 	for (len = 0; s[len] != '\0'; len++)
 	;
