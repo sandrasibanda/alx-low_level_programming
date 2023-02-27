@@ -8,11 +8,23 @@
  * Return: 0
  */
 
-int main(void)
+void puts_half(char *str)
 {
-    char *str;
+	int index, half;
 
-    str = "0123456789";
-    puts_half(str);
-    return (0);
+	index = 0;
+	while (str[index] != '\0')
+		index++;
+
+	half = index / 2;
+
+	if (index % 2 == 1)
+		half++;
+
+	while (half < index)
+	{
+		_putchar(str[half]);
+		half++;
+	}
+	_putchar('\n');
 }
