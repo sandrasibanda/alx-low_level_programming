@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include "main.h"
-#include <string.h>
+
 
 /**
  * puts_half - prints the second half of the string
@@ -8,23 +8,11 @@
  * Return: 0
  */
 
-void puts_half(char *str)
+int main(void)
 {
-	int index, half;
+    char *str;
 
-	index = 0;
-	while (str[index] != '\0')
-		index++;
-
-	half = index / 2;
-
-	if (index % 2 == 1)
-		half++;
-
-	while (half < index)
-	{
-		_putchar(str[half]);
-		half++;
-	}
-	_putchar('\n');
+    str = "0123456789";
+    puts_half(str);
+    return (0);
 }
