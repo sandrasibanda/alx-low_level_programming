@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * _putchar - prints character 
  * print_chessboard - print the chessboard, 2d array
  * @a: 2d array of chars
  *Return: void
