@@ -14,17 +14,20 @@
 
 int main(int argc, char *argv[])
 {
-	int  a = argc - 1, b = a - 1, res;
+	int arg1, arg2, product;
 
-	if (a == 2)
-	{
-		res = atoi(argv[a]) * atoi(argv[b]);
-		printf("%d\n", res);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[2]);
+
+	product = arg1 * arg2;
+
+	printf("%d\n", product);
+
 	return (0);
 }
