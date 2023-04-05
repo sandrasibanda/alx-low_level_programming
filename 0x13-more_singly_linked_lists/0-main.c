@@ -24,8 +24,8 @@ int main(void)
 	new->n = 9;
 	new->next = head;
 	head = new;
-	n = print_listint(head);
-	printf("-> %lu elements\n", n);
+	a = print_listint(head);
+	printf("-> %lu elements\n", a);
 	free(new);
 	return (0);
 }
